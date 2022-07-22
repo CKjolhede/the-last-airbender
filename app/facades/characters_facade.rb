@@ -1,0 +1,4 @@
+class CharactersFacade 
+
+  
+end
