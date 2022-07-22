@@ -1,6 +1,8 @@
 class CharactersController < ApplicationController
 
   def index
-    @characters = CharactersFacade.characters(params[:nation])
+
+    @characters = CharacterFacade.characters(params[:nation])
+  
   end
 end

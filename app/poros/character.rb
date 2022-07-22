@@ -1,4 +1,4 @@
-class Member
+class Character
   attr_reader :name, :image_url, :alies, :enemies, :affiliation
 
   def initialize(data)
